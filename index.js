@@ -44,7 +44,7 @@ function generateNumber(maxNumber) {
     } else if (randomNumber >= 61 && randomNumber <= 75) {
         ONumber = randomNumber;
         isO = true;
-        console.log(`The Number ${randomNumber} is inO`);
+        console.log(`The Number ${randomNumber} is in O`);
 
     } else {
         console.log('The number is invalid.');
